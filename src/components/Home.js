@@ -112,12 +112,12 @@ const Home = () => {
           >
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
                     <div className="pt-4 text-center space-y-3">
                     <blockquote className='mx-auto'>
-                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                        </p>
+                      <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
+                      </p>
                     </blockquote>
                     <figcaption className="font-medium text-gray-500 dark:text-gray-800">
                         <div className="">
@@ -132,7 +132,7 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-[15em] rounded-full mx-auto" src="./" alt="" />
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
                     <div className="pt-4 text-center space-y-3">
                     <blockquote className='mx-auto'>
                         <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
