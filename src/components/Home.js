@@ -63,7 +63,7 @@ const Home = () => {
       </div>
 
 {/* wdwf */}
-        <div className='p-20 bg-gray-100 pt-16 dark:bg-gray-700'>
+        <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
           <h2 className='font-bold text-center text-4xl text-blue-500 pt-16'>
             Here are our core services         
           </h2>
