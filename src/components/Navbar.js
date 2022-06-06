@@ -36,7 +36,7 @@ const Navbar = () => {
                   alt='Logo'
                 />
                 <span className='ml-1.5 text-base font-semibold text-indigo-700 dark:text-white'>
-                  Loan App
+                  The Blockchain Unified Fund
                 </span>
               </Link>
             </div>

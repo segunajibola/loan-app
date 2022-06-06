@@ -25,12 +25,12 @@ const Home = () => {
             <h1 className='mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-4xl'>
               Need a Loan?
               <br />
-              <span className='text-indigo-500 dark:text-indigo-600'>
+              <span className='text-indigo-300 dark:text-indigo-600'>
                 You can get it with your digital assests.
               </span>
             </h1>
             <p className='mt-2 text-gray-600 dark:text-white sm:text-xl'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+              We are one of the frontier in the blockchain industry. A blockchain startup to save, transfer and loan funds to anyone, anywhere. 
             </p>
             <img
               src='/images/hero.png'
@@ -53,7 +53,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className='relative m-3 hidden lg:block 2xl:col-span-3'>
           <img
             src='/images/hero.png'
@@ -62,6 +61,75 @@ const Home = () => {
           />
         </div>
       </div>
+
+{/* wdwf */}
+        <div className='p-20 bg-gray-100 pt-16 dark:bg-gray-700'>
+          <h2 className='font-bold text-center text-4xl text-blue-500 pt-16'>
+            Here are our core services         
+          </h2>
+          <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+          }}
+          pagination={{
+              clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className="relative w-[24.5rem] sm:w-[30rem] m-auto mt-5 md:w-[78rem]"
+          >
+            <SwiperSlide className="md:mt-1 p-2">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
+                    <div className="pt-4 text-center space-y-3">
+                    <blockquote className='mx-auto'>
+                      <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
+                      </p>
+                    </blockquote>
+                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
+                        <div className="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div className="mb-2">
+                        Lorem ip
+                        </div>
+                    </figcaption>
+                    </div>
+                </figure>
+            </SwiperSlide>
+            {/* The blockchain unified app
+            Blockchain startup
+            save
+            transfer
+            loan 
+            */}
+            <SwiperSlide className="md:mt-1 p-2">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
+                    <div className="pt-4 text-center space-y-3">
+                    <blockquote className='mx-auto'>
+                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
+                        </p>
+                    </blockquote>
+                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
+                        <div className="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div className="mb-2">
+                        Lorem ip
+                        </div>
+                    </figcaption>
+                    </div>
+                </figure>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      {/* bhdvhd */}
 
       {/* // */}
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
@@ -86,8 +154,6 @@ const Home = () => {
         </div>
       </div>
 
-
-        
       <div className='grid bg-gray-100 pt-10 dark:bg-gray-700 grid-cols-2 w-full pb-10'>
         <div className='relative ml-5 mx-auto w-[42rem] px-4 py-4'>
           <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-5xl'>Social proofs are cool</h1>
@@ -130,6 +196,12 @@ const Home = () => {
                     </div>
                 </figure>
             </SwiperSlide>
+            {/* The blockchain unified app
+            Blockchain startup
+            save
+            transfer
+            loan 
+            */}
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
                     <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
