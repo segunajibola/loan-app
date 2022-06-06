@@ -31,11 +31,11 @@ const Navbar = () => {
               {/* Website Logo --> show on all screens*/}
               <Link to='/' className='flex items-center py-4 px-1'>
                 <img
-                  className='inline-block h-8 w-12'
-                  src='/'
+                  className='inline-block h-8 w-8 rounded-2xl'
+                  src='/images/logo.png'
                   alt='Logo'
                 />
-                <span className='ml-1 text-base font-semibold text-indigo-700 dark:text-white'>
+                <span className='ml-1.5 text-base font-semibold text-indigo-700 dark:text-white'>
                   Loan App
                 </span>
               </Link>
@@ -64,7 +64,13 @@ const Navbar = () => {
                 to='/contact'
                 className='py-4 px-2 transition duration-300 hover:text-black dark:hover:text-gray-400'
               >
-                Contact Us
+                Quick call
+              </Link>
+              <Link
+                to='/contact'
+                className='py-4 px-2 transition duration-300 hover:text-black dark:hover:text-gray-400'
+              >
+                Socials
               </Link>
             </div>
           </div>
