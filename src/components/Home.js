@@ -64,8 +64,8 @@ const Home = () => {
 
 {/* wdwf */}
         <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
-          <h2 className='font-bold text-center text-4xl text-blue-500 pt-16'>
-            Here are our core services         
+          <h2 className='font-bold text-center text-4xl text-blue-700 pt-16'>
+            Our core services         
           </h2>
           <Swiper
           spaceBetween={30}
@@ -144,7 +144,7 @@ const Home = () => {
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>No collateral, just social proofs</h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
           </p>
           <img
             src='/images/loan-arm.png'
