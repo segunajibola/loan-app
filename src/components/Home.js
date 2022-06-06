@@ -22,10 +22,10 @@ const Home = () => {
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <div className='max-w-xl'>
-            <h1 className='mt-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-4xl'>
+            <h1 className='my-2 text-2xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-3xl xl:text-4xl'>
               Need a Loan?
               <br />
-              <span className='text-indigo-300 dark:text-indigo-600'>
+              <span className='block mt-2 text-indigo-300 dark:text-indigo-600'>
                 You can get it with your digital assests.
               </span>
             </h1>
@@ -64,7 +64,7 @@ const Home = () => {
 
 {/* wdwf */}
         <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
-          <h2 className='font-bold text-center text-4xl text-blue-700 pt-16'>
+          <h2 className='font-bold text-center text-5xl text-blue-400 pt-16'>
             Our core services         
           </h2>
           <Swiper
@@ -82,8 +82,9 @@ const Home = () => {
           className="relative w-[24.5rem] sm:w-[30rem] m-auto mt-5 md:w-[78rem]"
           >
             <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold text-center'>Save</h3>
                     <div className="pt-4 text-center space-y-3">
                     <blockquote className='mx-auto'>
                       <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
@@ -101,15 +102,31 @@ const Home = () => {
                     </div>
                 </figure>
             </SwiperSlide>
-            {/* The blockchain unified app
-            Blockchain startup
-            save
-            transfer
-            loan 
-            */}
             <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold text-center'>Transfer</h3>
+                    <div className="pt-4 text-center space-y-3">
+                    <blockquote className='mx-auto'>
+                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
+                        </p>
+                    </blockquote>
+                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
+                        <div className="">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </div>
+                        <div className="mb-2">
+                        Lorem ip
+                        </div>
+                    </figcaption>
+                    </div>
+                </figure>
+            </SwiperSlide>
+            <SwiperSlide className="md:mt-1 p-2">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
+                    <h3 className='text-2xl font-semibold text-center'>Loan</h3>
                     <div className="pt-4 text-center space-y-3">
                     <blockquote className='mx-auto'>
                         <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
@@ -135,7 +152,7 @@ const Home = () => {
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='relative ml-10 hidden lg:block'>
             <img
-                src='/images/loan-arm.png'
+                src='/images/social.png'
                 alt='Hero-image'
                 className='absolute inset-0 h-full w-full rounded object-cover object-center'
             />
@@ -147,7 +164,7 @@ const Home = () => {
             You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
           </p>
           <img
-            src='/images/loan-arm.png'
+            src='/images/social.png'
             alt='Hero-image'
             className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
           />
