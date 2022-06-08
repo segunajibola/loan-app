@@ -38,12 +38,11 @@ const Home = () => {
               className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
             />
             <div className='mt-4 space-x-1 sm:mt-6'>
-              <a
-                href='/'
+              <Link  to="/log-in"
                 className='focus:outline-none inline-block transform rounded-lg bg-indigo-500 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-indigo-400 focus:ring focus:ring-indigo-500 focus:ring-opacity-50 focus:ring-offset-2 active:bg-indigo-600 dark:bg-indigo-600  sm:text-base '
               >
                 Get Started
-              </a>
+              </Link>
               <a
                 href='/'
                 className='focus:outline-none inline-block rounded-lg bg-gray-300 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-gray-800 hover:bg-gray-200 focus:ring focus:ring-gray-300 focus:ring-opacity-50 focus:ring-offset-2 active:bg-gray-400 sm:text-base'
@@ -62,57 +61,54 @@ const Home = () => {
         </div>
       </div>
 
-{/* wdwf */}
-        <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
-          <h2 className='font-bold text-center text-5xl text-blue-400 pt-16'>
-            Our core services         
-          </h2>
-          <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-          }}
-          pagination={{
-              clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="relative w-[24.5rem] sm:w-[30rem] m-5 md:h-[20rem] md:w-[78rem]"
-          >
-            <SwiperSlide className="md:mt-1">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-10'>Save</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-            <SwiperSlide className="md:mt-1">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-10'>Transfer</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-            <SwiperSlide className="md:mt-1">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-10'>Loan</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-          </Swiper>
-        </div>
-      {/* bhdvhd */}
-
-      {/* // */}
+      <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
+        <h2 className='font-bold text-center text-5xl text-blue-400 pt-16'>
+          Our core services         
+        </h2>
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+        }}
+        pagination={{
+            clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="relative w-[24.5rem] sm:w-[30rem] m-5 md:h-[20rem] md:w-[78rem]"
+        >
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                  <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                  <h3 className='text-2xl font-semibold -mt-10'>Save</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                  <img className="w-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
+                  <h3 className='text-2xl font-semibold -mt-10'>Transfer</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                  <img className="w-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
+                  <h3 className='text-2xl font-semibold -mt-10'>Loan</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+  
       <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='relative ml-10 hidden lg:block'>
             <img

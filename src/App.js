@@ -2,6 +2,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Login from "./components/Login";
 
 function App() {
   return (
@@ -14,11 +15,10 @@ function App() {
                 path='/'
                 element={<Home />}
               />
-             
-              {/* <Route
-                path='*'
-                element={<NotFound />}
-              /> */}
+              <Route
+                path='/log-in'
+                element={<Login />}
+              />
             </Routes>
           <Footer />
       </Router>
