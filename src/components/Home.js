@@ -139,7 +139,7 @@ const Home = () => {
         <div className='relative ml-5 mx-auto w-[42rem] px-4 py-4'>
           <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-5xl'>Social proofs are cool</h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
-            Here's how -- adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ad, atque ut impedit modi soluta assumenda perspiciatis consectetur blanditiis deserunt inventore rerum delectus. Soluta accusamus aliquam tempore praesentium ipsam vitae. adipisicing elit elit. Ipsum, ad, atque ut impedit modi soluta assumenda perspiciatis consectetur blanditiis deserunt inventore rerum delectus. Soluta accusamus aliquam tempore praesentium ipsam vitae.
+            Here's how -- adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ad, atque ut impedit modi soluta assumenda perspiciatis consectetur blanditiis deserunt inventore rerum delectus. Soluta accusamus aliquam tempore praesentium ipsam vitae. adipisicing elit elit.
           </p>
         </div>
         <div className='mx-auto ml-[2rem] px-4 sm:max-w-xl lg:max-w-full xl:mr-0 2xl:col-span-2'>
@@ -159,7 +159,7 @@ const Home = () => {
           >
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/social-proof.png" alt="" />
                     <h3 className='text-2xl font-semibold -mt-5'>Socials</h3>                   
                     <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
@@ -168,7 +168,7 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/digital-asset.jpg" alt="" />
                     <h3 className='text-2xl font-semibold -mt-5'>Digital assets</h3>                   
                     <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
@@ -177,7 +177,7 @@ const Home = () => {
             </SwiperSlide>
             <SwiperSlide className="md:mt-1 p-2">
                 <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <img className="w-32 rounded-full mx-auto" src="./images/proof.jpg" alt="" />
                     <h3 className='text-2xl font-semibold -mt-5'>Proofs</h3>                   
                     <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
                       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
