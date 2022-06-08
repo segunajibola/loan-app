@@ -7,11 +7,8 @@ const Register = () => {
     const [formValues, setFormValues] = useState(initialValues)
     const [formErrors, setFormErrors] = useState({})
     const [isSubmit, setIsSubmit] = useState(false)
-    const [confirm, setConfirm] = useState("")
-
 
     const handleChange = (e) => {
-        // console.log(e.target);
         const { name, value } = e.target;
         setFormValues({ ...formValues, [name]: value });
         console.log(formValues)
@@ -21,23 +18,18 @@ const Register = () => {
         e.preventDefault();
         setFormErrors(validate(formValues))
         setIsSubmit(true)
-        // setConfirm("All forms input submitted")
     } 
 
     useEffect(() => {
         console.log(formErrors)
         if (Object.keys(formErrors).length === 0 && isSubmit) {
             console.log(formValues)
-            setConfirm("All forms input submitted")
         }
     }, [formErrors]);
 
     const validate = (values) => {
         const errors = {}
-        // /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
-        // /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
-        // ^[^\s@]+@([^\s@.,]+\.)+[^\s@.,]{2,}$
         if (!values.username) {
             errors.username = "Username is required!"
         }
@@ -124,7 +116,7 @@ const Register = () => {
                 <p>{ formErrors.confirmpassword }</p>
                 
                 {Object.keys(formErrors).length === 0 && isSubmit ? (
-                <div>Signed in successfully</div>) : "" }
+                <div>Account created successfully</div>) : "" }
 
                 <button className='border-2 w-40 border-black bg-indigo-300 hover:bg-gray-700 hover:text-white hover:border-gray-600 py-2 px-4 rounded-lg mt-5 mx-auto flex items-center'>Create Account</button>
             </form>            
