@@ -79,69 +79,33 @@ const Home = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="relative w-[24.5rem] sm:w-[30rem] m-auto mt-5 md:w-[78rem]"
+          className="relative w-[24.5rem] sm:w-[30rem] m-5 md:h-[20rem] md:w-[78rem]"
           >
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold text-center'>Save</h3>
-                    <div className="pt-4 text-center space-y-3">
-                    <blockquote className='mx-auto'>
-                      <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                      </p>
-                    </blockquote>
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                        <div className="mb-2">
-                        Lorem ip
-                        </div>
-                    </figcaption>
-                    </div>
+            <SwiperSlide className="md:mt-1">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-10'>Save</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
                 </figure>
             </SwiperSlide>
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold text-center'>Transfer</h3>
-                    <div className="pt-4 text-center space-y-3">
-                    <blockquote className='mx-auto'>
-                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                        </p>
-                    </blockquote>
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                        <div className="mb-2">
-                        Lorem ip
-                        </div>
-                    </figcaption>
-                    </div>
+            <SwiperSlide className="md:mt-1">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-10'>Transfer</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
                 </figure>
             </SwiperSlide>
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[32rem]">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
-                    <h3 className='text-2xl font-semibold text-center'>Loan</h3>
-                    <div className="pt-4 text-center space-y-3">
-                    <blockquote className='mx-auto'>
-                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                        </p>
-                    </blockquote>
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                        <div className="mb-2">
-                        Lorem ip
-                        </div>
-                    </figcaption>
-                    </div>
+            <SwiperSlide className="md:mt-1">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-10'>Loan</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
                 </figure>
             </SwiperSlide>
           </Swiper>
@@ -191,52 +155,33 @@ const Home = () => {
           }}
           navigation={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="relative w-[24.5rem] sm:w-[30rem] m-auto md:w-[38rem]"
+          className="relative w-[24.5rem] sm:w-[30rem] h-[21rem] m-auto md:w-[38rem]"
           >
             <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
-                    <div className="pt-4 text-center space-y-3">
-                    <blockquote className='mx-auto'>
-                      <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                      </p>
-                    </blockquote>
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                        <div className="mb-2">
-                        Lorem ip
-                        </div>
-                    </figcaption>
-                    </div>
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-5'>Socials</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
                 </figure>
             </SwiperSlide>
-            {/* The blockchain unified app
-            Blockchain startup
-            save
-            transfer
-            loan 
-            */}
             <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./" alt="" />
-                    <div className="pt-4 text-center space-y-3">
-                    <blockquote className='mx-auto'>
-                        <p className="text-lg font-semibold text-gray-300 mx-4 dark:text-gray-900">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ullam harum impedit in, alias tempora aliquam provident ipsa voluptas unde consequatur, nihil minima. Asperiores vero minus magnam atque a suscipit.
-                        </p>
-                    </blockquote>
-                    <figcaption className="font-medium text-gray-500 dark:text-gray-800">
-                        <div className="">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        </div>
-                        <div className="mb-2">
-                        Lorem ip
-                        </div>
-                    </figcaption>
-                    </div>
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/twitter.png" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-5'>Digital assets</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
+                </figure>
+            </SwiperSlide>
+            <SwiperSlide className="md:mt-1 p-2">
+                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+                    <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
+                    <h3 className='text-2xl font-semibold -mt-5'>Proofs</h3>                   
+                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    </p>
                 </figure>
             </SwiperSlide>
           </Swiper>
