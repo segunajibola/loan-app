@@ -2,12 +2,13 @@ import { useState, useEffect, React } from 'react';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
-
     // const initialValues = {} or set {} in formValues
     const initialValues = {username: "", email: "", password: ""}
     const [formValues, setFormValues] = useState(initialValues)
     const [formErrors, setFormErrors] = useState({})
     const [isSubmit, setIsSubmit] = useState(false)
+    const [confirm, setConfirm] = useState("")
+
 
     const handleChange = (e) => {
         // console.log(e.target);
@@ -20,12 +21,14 @@ const Login = () => {
         e.preventDefault();
         setFormErrors(validate(formValues))
         setIsSubmit(true)
+        // setConfirm("All forms input submitted")
     } 
 
     useEffect(() => {
         console.log(formErrors)
         if (Object.keys(formErrors).length === 0 && isSubmit) {
             console.log(formValues)
+            setConfirm("All forms input submitted")
         }
     }, [formErrors]);
 
@@ -56,16 +59,16 @@ const Login = () => {
     return (
     <>
       <div className='w-full pt-24 mx-auto px-6 text-center'>
-        <h1 className='text-primary mt-8 md:mt-0 font-bold text-3xl'>
-          Welcome to E-Gift
-        </h1>
-        {Object.keys(formErrors).length === 0 && isSubmit ? (
+            <h1 className='text-primary mt-8 md:mt-0 font-bold text-3xl'>
+            Welcome to E-Gift
+            </h1>
+            {/* {Object.keys(formErrors).length === 0 && isSubmit ? (
             <div>Signed in successfully</div>) : (
                 <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
-            )}
-        <p className='text-inactive mt-3'>Enter details to login</p>
-            <form method='POST' action="" onSubmit={handleSubmit} className='flex flex-col max-w-[600px] w-full mx-auto my-5'>
-                <label className="text-left my-2">Full Name</label>
+            )} */}
+            <p className='text-inactive mt-3'>Enter details to login</p>
+            <form method='POST' action="" onSubmit={handleSubmit} className='text-left flex flex-col max-w-[600px] w-full mx-auto my-5'>
+                <label className="my-2">Full Name</label>
                 <input 
                     className='bg-[#ccd6f6] p-2' 
                     type="text"
@@ -75,16 +78,16 @@ const Login = () => {
                     value={ formValues.username }
                     onChange={handleChange} />
                 <p>{ formErrors.username }</p>
-                <label className="text-left my-2">E-mail</label>
+                <label className="my-2">E-mail</label>
                 <input 
-                    className='mb-2 p-2 bg-[#ccd6f6]' 
-                    type="email" 
-                    placeholder='Email' 
+                    className='mb-2 p-2 bg-[#ccd6f6]'
+                    type="email"
+                    placeholder='Email'
                     name='email'
                     value={ formValues.email }
                     onChange={handleChange} />
                 <p>{ formErrors.email }</p>
-                <label className="text-left my-2">Password</label>
+                <label className="my-2">Password</label>
                 <input 
                     className='mb-2 p-2 bg-[#ccd6f6]' 
                     type="password" 
@@ -93,13 +96,19 @@ const Login = () => {
                     value={ formValues.password }
                     onChange={handleChange} />
                 <p>{ formErrors.password }</p>
-                {/* <Link to='/profile' className='mt-3'> */}
-                    <button className='border-2 w-20 border-black hover:bg-gray-700 hover:text-white hover:border-gray-600 py-2 px-4 rounded-lg my-8 mx-auto flex items-center'>Login</button>
-                {/* </Link> */}
+                {/* <p>{ confirm }</p> */}
+                
+                {Object.keys(formErrors).length === 0 && isSubmit ? (
+                <div>Signed in successfully</div>) : "" }
+
+                <button className='border-2 w-20 border-black bg-indigo-300 hover:bg-gray-700 hover:text-white hover:border-gray-600 py-2 px-4 rounded-lg mt-5 mx-auto flex items-center'>Login</button>
             </form>
-          <Link to='/' className='mt-3 text-indigo-600 text-sm'>
-            Forgot Password?
-          </Link>
+            <div className='mb-10'>
+                <Link to='/' className='text-indigo-600 text-md'>
+                Forgot Password?
+            </Link>
+            </div>
+            
         </div>
     </>
   );
