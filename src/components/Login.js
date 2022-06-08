@@ -60,13 +60,13 @@ const Login = () => {
     <>
       <div className='w-full pt-24 mx-auto px-6 text-center'>
             <h1 className='text-primary mt-8 md:mt-0 font-bold text-3xl'>
-            Welcome to E-Gift
+                Welcome to TBUF
             </h1>
             {/* {Object.keys(formErrors).length === 0 && isSubmit ? (
             <div>Signed in successfully</div>) : (
                 <pre>{JSON.stringify(formValues, undefined, 2)}</pre>
             )} */}
-            <p className='text-inactive mt-3'>Enter details to login</p>
+            <p className='text-inactive mt-3'>Enter your details to sign in</p>
             <form method='POST' action="" onSubmit={handleSubmit} className='text-left flex flex-col max-w-[600px] w-full mx-auto my-5'>
                 <label className="my-2">Full Name</label>
                 <input 

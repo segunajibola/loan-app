@@ -24,12 +24,12 @@ function toggleMenu() {
 const Navbar = () => {
   return (
     <nav className='fixed z-10 w-full bg-white shadow-lg dark:bg-gray-800'>
-      <div className='z-20 mx-5 w-full px-4 text-xs'>
+      <div className='z-20 mx-4 w-full px-7 text-xs'>
         <div className='flex justify-between items-center w-full'>
           <div className='flex space-x-8'>
             <div className='md:mr-32'>
               {/* Website Logo --> show on all screens*/}
-              <Link to='/' className='flex items-center py-4 px-1'>
+              <Link to='/' className='-ml-7 sm:-ml-0 flex items-center py-4 px-1'>
                 <img
                   className='inline-block h-8 w-8 rounded-2xl'
                   src='/images/logo.png'
@@ -90,13 +90,13 @@ const Navbar = () => {
               Sign Up
             </Link>
           </div>
-          <div>
-            {/* <FontAwesomeIcon
+         {/* <div>
+             <FontAwesomeIcon
               className='mt-6 ml-20 -mr-20 cursor-pointer text-xl text-yellow-400 dark:text-white sm:ml-72 md:ml-0'
               onClick={darkMode}
               icon={faMoon}
-            /> */}
-          </div>
+            /> 
+          </div>*/}
 
           {/* Mobile menu button icon --> only shows in sm */}
           <div className='flex items-center md:hidden'>
