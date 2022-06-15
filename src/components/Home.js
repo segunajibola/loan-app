@@ -84,7 +84,7 @@ const Home = () => {
                   <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Save</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    Use the blockchain unified fund to keep fund on the blockchain. Access anywhere and anytime.
                   </p>
               </figure>
           </SwiperSlide>
@@ -93,7 +93,7 @@ const Home = () => {
                   <img className="w-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Transfer</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  Use the blockchain unified fund to transfer fund on the blockchain. Share with people and accounts anywhere in the universe and at anytime.
                   </p>
               </figure>
           </SwiperSlide>
@@ -102,7 +102,7 @@ const Home = () => {
                   <img className="w-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Loan</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    Get quick loans without colateral in simple steps.
                   </p>
               </figure>
           </SwiperSlide>
@@ -121,7 +121,7 @@ const Home = () => {
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
           <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-2 sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>No collateral, just social proofs</h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
-            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+            You don't need multiple paperworks to get a loan, just show proof of your social credibility and process loan in minutes.
           </p>
           <img
             src='/images/social.png'
@@ -137,7 +137,7 @@ const Home = () => {
             Social proofs are cool
           </h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
-            Here's how -- adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ad, atque ut impedit modi soluta assumenda perspiciatis consectetur blanditiis deserunt inventore rerum delectus. Soluta accusamus aliquam tempore praesentium ipsam vitae. adipisicing elit elit.
+            It could be social media pressence or followers, use how rated you are on social media to access loans quickly.
           </p>
         </div>
         <Swiper
@@ -159,7 +159,7 @@ const Home = () => {
                   <img className="w-32 h-32 rounded-full mx-auto" src="./images/social-proof.png" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Social proof</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    Connect your social media accounts, verify and up your status to get quick loans without colleteral.
                   </p>
               </figure>
           </SwiperSlide>
@@ -168,7 +168,7 @@ const Home = () => {
                   <img className="w-32 h-32 rounded-full mx-auto" src="./images/digital-asset.jpg" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Digital Asset</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                    Use your soft assets online to process transction on the blockchain unified fund.
                   </p>
               </figure>
           </SwiperSlide>
@@ -177,17 +177,20 @@ const Home = () => {
                   <img className="w-32 rounded-full mx-auto" src="../images/proof.jpg" alt="" />
                   <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Documents</h3>                   
                   <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  Use your legal documents to fast-track loans, setup within minutes.
                   </p>
               </figure>
           </SwiperSlide>
         </Swiper>
       </div>
 
-      <div className='-pb-4 md:py-10 bg-gray-100 md:pt-16 dark:bg-gray-700'>
-        <h2 className='font-bold text-center text-5xl text-blue-400 pt-4'>
+      <div className='-pb-4 md:py-10 text-center bg-gray-100 md:pt-16 dark:bg-gray-700'>
+        <h2 className='font-bold text-5xl text-blue-400 pt-4'>
           Pay later services         
         </h2>
+        <p className='mt-3 text-2xl text-gray-600 dark:text-white sm:text-xl'>
+          Access our pay later services
+        </p>
       </div>
       <div className='grid bg-gray-100 pt-10 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='relative ml-10 hidden lg:block'>
@@ -203,7 +206,7 @@ const Home = () => {
             Learn and pay later
           </h1>
           <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
-            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+            Get access to our premium lectures, training and mentorships and pay later.
           </p>
           <img
             src='/images/social.png'
@@ -227,7 +230,7 @@ const Home = () => {
             Build and pay later
           </h1>
           <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
-            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+           Build blockchain apps in simple steps, ship and share with others.
           </p>
           <img
             src='/images/social.png'
@@ -251,7 +254,7 @@ const Home = () => {
             Service and pay later
           </h1>
           <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
-            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+            Get access to our services and pay later.
           </p>
           <img
             src='/images/social.png'
