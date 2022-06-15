@@ -122,7 +122,7 @@ const Navbar = () => {
       <div className='hidden' id='menu'>
         <ul
           className='m-1 bg-gray-200 py-3 px-2 text-lg dark:bg-gray-500 dark:text-white'
-        //   onClick={toggleMenu}
+          onClick={toggleMenu}
         >
           <li className=''>
             <Link
@@ -166,7 +166,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to='/sign-up'
+              to='/register'
               className='my-2 inline-block rounded bg-indigo-500 py-2 px-2 font-medium text-white transition duration-300 hover:bg-indigo-600 dark:bg-indigo-600'
             >
               Sign Up
