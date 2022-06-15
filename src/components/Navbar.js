@@ -153,7 +153,7 @@ const Navbar = () => {
               to='/contact'
               className='block px-2 py-4 transition duration-300 hover:bg-indigo-400 dark:hover:bg-indigo-400 dark:hover:text-black'
             >
-              Contact Us
+              Contact
             </Link>
           </li>
           <li>

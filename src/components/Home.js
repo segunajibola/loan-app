@@ -61,7 +61,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='py-20 bg-gray-100 pt-16 dark:bg-gray-700'>
+      <div className='py-2 md:py-10 bg-gray-100 md:pt-16 dark:bg-gray-700'>
         <h2 className='font-bold text-center text-5xl text-blue-400 pt-16'>
           Our core services         
         </h2>
@@ -77,31 +77,31 @@ const Home = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="relative w-[24.5rem] sm:w-[30rem] m-5 md:h-[20rem] md:w-[78rem]"
+        className="relative w-[23.5rem] sm:w-[29rem] md:w-[78rem] m-5 h-[25.5rem] md:h-[20rem]"
         >
           <SwiperSlide className="md:mt-1">
-              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
                   <img className="w-32 rounded-full mx-auto" src="./images/save.jpg" alt="" />
-                  <h3 className='text-2xl font-semibold -mt-10'>Save</h3>                   
-                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Save</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
                   </p>
               </figure>
           </SwiperSlide>
           <SwiperSlide className="md:mt-1">
-              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
                   <img className="w-32 rounded-full mx-auto" src="./images/transfer.jpg" alt="" />
-                  <h3 className='text-2xl font-semibold -mt-10'>Transfer</h3>                   
-                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Transfer</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
                   </p>
               </figure>
           </SwiperSlide>
           <SwiperSlide className="md:mt-1">
-              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
                   <img className="w-32 rounded-full mx-auto" src="./images/loan.png" alt="" />
-                  <h3 className='text-2xl font-semibold -mt-10'>Loan</h3>                   
-                  <p className="text-lg font-semibold text-gray-300 mx-4 -mt-10 dark:text-gray-900">
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Loan</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
                   </p>
               </figure>
@@ -109,7 +109,7 @@ const Home = () => {
         </Swiper>
       </div>
   
-      <div className='grid bg-gray-100 pt-16 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
+      <div className='grid bg-gray-100 pt-10 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
         <div className='relative ml-10 hidden lg:block'>
             <img
                 src='/images/social.png'
@@ -119,7 +119,7 @@ const Home = () => {
         </div>
 
         <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
-          <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>No collateral, just social proofs</h1>
+          <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-2 sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>No collateral, just social proofs</h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
             You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
           </p>
@@ -131,56 +131,136 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='grid bg-gray-100 pt-10 dark:bg-gray-700 grid-cols-2 w-full pb-10'>
-        <div className='relative ml-5 mx-auto w-[42rem] px-4 py-4'>
-          <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-5xl'>Social proofs are cool</h1>
+      <div className='grid bg-gray-100 py-10 dark:bg-gray-700 md:grid-cols-2 w-full'>
+        <div className='relative mx-auto px-2 py-4'>
+          <h1 className='mt-2 text-xl font-bold text-gray-900 dark:text-white sm:mt-4 sm:text-4xl lg:mt-4 lg:text-5xl'>
+            Social proofs are cool
+          </h1>
           <p className='mt-8 text-gray-600 dark:text-white sm:text-xl'>
             Here's how -- adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ad, atque ut impedit modi soluta assumenda perspiciatis consectetur blanditiis deserunt inventore rerum delectus. Soluta accusamus aliquam tempore praesentium ipsam vitae. adipisicing elit elit.
           </p>
         </div>
-        <div className='mx-auto ml-[2rem] px-4 sm:max-w-xl lg:max-w-full xl:mr-0 2xl:col-span-2'>
-          <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-          }}
-          pagination={{
-              clickable: true,
-          }}
-          navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="relative w-[24.5rem] sm:w-[30rem] h-[21rem] m-auto md:w-[38rem]"
-          >
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/social-proof.png" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-5'>Socials</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 h-32 rounded-full mx-auto" src="./images/digital-asset.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-5'>Digital assets</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-            <SwiperSlide className="md:mt-1 p-2">
-                <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[20rem] text-center">
-                    <img className="w-32 rounded-full mx-auto" src="./images/proof.jpg" alt="" />
-                    <h3 className='text-2xl font-semibold -mt-5'>Proofs</h3>                   
-                    <p className="text-lg font-semibold text-gray-300 mx-4 -mt-5 dark:text-gray-900">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
-                    </p>
-                </figure>
-            </SwiperSlide>
-          </Swiper>
+        <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+        }}
+        pagination={{
+            clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="relative w-[23.5rem] sm:w-[29rem] md:w-[78rem] h-[25.5rem] md:h-[20rem]"
+        >
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
+                  <img className="w-32 h-32 rounded-full mx-auto" src="./images/social-proof.png" alt="" />
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Social proof</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
+                  <img className="w-32 h-32 rounded-full mx-auto" src="./images/digital-asset.jpg" alt="" />
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Digital Asset</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+          <SwiperSlide className="md:mt-1">
+              <figure className="bg-gray-700 dark:bg-gray-300 grid rounded-xl p-3 shadow-lg shadow-gray-700 h-[25rem] text-center">
+                  <img className="w-32 rounded-full mx-auto" src="../images/proof.jpg" alt="" />
+                  <h3 className='text-2xl font-semibold mt-0 md:-mt-10'>Documents</h3>                   
+                  <p className="text-lg font-semibold text-gray-300 mx-4 mt-0 md:-mt-10 dark:text-gray-900">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, laudantium consectetur error culpa consequatur ratione possimus aut numquam quam tempora, explicabo maxime quibusdam at. Odio consectetur at illum officiis nemo.
+                  </p>
+              </figure>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
+      <div className='-pb-4 md:py-10 bg-gray-100 md:pt-16 dark:bg-gray-700'>
+        <h2 className='font-bold text-center text-5xl text-blue-400 pt-4'>
+          Pay later services         
+        </h2>
+      </div>
+      <div className='grid bg-gray-100 pt-10 dark:bg-gray-700 lg:grid-cols-2 2xl:grid-cols-5'>
+        <div className='relative ml-10 hidden lg:block'>
+            <img
+                src='/images/social.png'
+                alt='Hero-image'
+                className='absolute inset-0 h-full w-full rounded object-cover object-center'
+            />
+        </div>
+
+        <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
+          <h1 className='text-xl font-bold text-gray-900 dark:text-white sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>
+            Learn and pay later
+          </h1>
+          <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
+            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+          </p>
+          <img
+            src='/images/social.png'
+            alt='Hero-image'
+            className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
+          />
+          <p className='mt-4 underline underline-offset-4 text-gray-600 dark:text-white sm:text-xl'>
+            Get started
+          </p>
+        </div>
+
+        <div className='relative ml-10 hidden lg:block'>
+            <img
+                src='/images/social.png'
+                alt='Hero-image'
+                className='absolute inset-0 h-full w-full rounded object-cover object-center'
+            />
+        </div>
+        <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
+          <h1 className='text-xl font-bold text-gray-900 dark:text-white sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>
+            Build and pay later
+          </h1>
+          <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
+            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+          </p>
+          <img
+            src='/images/social.png'
+            alt='Hero-image'
+            className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
+          />
+          <p className='mt-4 underline underline-offset-4 text-gray-600 dark:text-white sm:text-xl'>
+            Get started
+          </p>
+        </div>
+
+        <div className='relative ml-10 hidden lg:block'>
+            <img
+                src='/images/social.png'
+                alt='Hero-image'
+                className='absolute inset-0 h-full w-full rounded object-cover object-center'
+            />
+        </div>
+        <div className='mx-auto max-w-md px-4 py-4 sm:max-w-xl lg:max-w-full lg:px-12 lg:py-24 xl:mr-0 2xl:col-span-2'>
+          <h1 className='text-xl font-bold text-gray-900 dark:text-white sm:text-4xl lg:mt-4 lg:text-2xl xl:text-3xl'>
+            Service and pay later
+          </h1>
+          <p className='mt-3 text-gray-600 dark:text-white sm:text-xl'>
+            You don't need multiple and vur adipisicing elit. Ratione autem ipsum voluptatem, fuga vel laborum eius laudantium iste culpa sed blanditiis, et suscipit velit ea quisquam. Distinctio in dolores placeat.
+          </p>
+          <img
+            src='/images/social.png'
+            alt='Hero-image'
+            className='my-2 h-52 w-full rounded-lg object-center shadow-xl sm:mt-8 sm:h-64 sm:object-cover lg:hidden'
+          />
+          <p className='mt-4 underline underline-offset-4 text-gray-600 dark:text-white sm:text-xl'>
+            Get started
+          </p>
         </div>
       </div>
     </>
